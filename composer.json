@@ -16,8 +16,8 @@
     	"mouf/archive-installer": "~1.0"
     },
     "extra": {
-        "url": "http://ftp.drupal.org/files/projects/drupal-7.18.zip",
-        "target-dir": ".",
+        "url": "http://ftp.drupal.org/files/projects/drupal-7.19.zip",
+        "target-dir": "web",
         "omit-first-directory": "true"
     }
 }
