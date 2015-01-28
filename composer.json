@@ -1,0 +1,24 @@
+{
+    "name": "nodeone/d7-composer",
+    "description": "This package is an installer that will download Drupal from the http://drupal.org website and unpack it at the root of your Composer project.",
+    "keywords": ["drupal", "wunderkraut", "installer"],
+    "homepage": "http://wunderkraut.se",
+    "type": "archive-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SE Support",
+            "email": "se.support@wunderkraut.com",
+            "homepage": "http://wunderkraut.se"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0",
+    	"mouf/archive-installer": "~1.0"
+    },
+    "extra": {
+        "url": "http://ftp.drupal.org/files/projects/drupal-7.34.zip",
+        "target-dir": ".",
+        "omit-first-directory": "true"
+    }
+}
