@@ -1,15 +1,15 @@
 {
-    "name": "nodeone/d7-composer",
+    "name": "thecodingmachine/drupal",
     "description": "This package is an installer that will download Drupal from the http://drupal.org website and unpack it at the root of your Composer project.",
-    "keywords": ["drupal", "wunderkraut", "installer"],
-    "homepage": "http://wunderkraut.se",
+    "keywords": ["drupal", "thecodingmachine", "installer"],
+    "homepage": "http://blog.thecodingmachine.com/content/installing-drupal-using-composer",
     "type": "archive-package",
     "license": "MIT",
     "authors": [
         {
-            "name": "SE Support",
-            "email": "se.support@wunderkraut.com",
-            "homepage": "http://wunderkraut.se"
+            "name": "David Négrier",
+            "email": "d.negrier@thecodingmachine.com",
+            "homepage": "http://mouf-php.com"
         }
     ],
     "require": {
@@ -17,7 +17,7 @@
     	"mouf/archive-installer": "~1.0"
     },
     "extra": {
-        "url": "http://ftp.drupal.org/files/projects/drupal-7.34.zip",
+        "url": "http://ftp.drupal.org/files/projects/drupal-7.18.zip",
         "target-dir": ".",
         "omit-first-directory": "true"
     }
