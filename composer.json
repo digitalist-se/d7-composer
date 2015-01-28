@@ -1,8 +1,7 @@
 {
-    "name": "thecodingmachine/drupal",
+    "name": "nodeone/d7-composer",
     "description": "This package is an installer that will download Drupal from the http://drupal.org website and unpack it at the root of your Composer project.",
-    "keywords": ["drupal", "thecodingmachine", "installer"],
-    "homepage": "http://blog.thecodingmachine.com/content/installing-drupal-using-composer",
+    "keywords": ["drupal", "wunderkraut", "installer"],
     "type": "archive-package",
     "license": "MIT",
     "authors": [
