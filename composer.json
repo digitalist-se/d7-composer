@@ -6,9 +6,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "David Négrier",
-            "email": "d.negrier@thecodingmachine.com",
-            "homepage": "http://mouf-php.com"
+            "name": "SE Support",
+            "email": "mikke.schiren@wunderkraut.com",
+            "homepage": "http://wunderkraut.se"
         }
     ],
     "require": {
